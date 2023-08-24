@@ -3,7 +3,7 @@
 body{
 	height: 100vh;
 	font-family: 'Poppins' sans-serif;
-	font-size: 12vw;
+	font-size: 190px;
 	text-transform: uppercase;
 	overflow: hidden;
 	background: linear-gradient(135deg, #FFD700, #FF69B4, #87CEEB);
@@ -161,7 +161,11 @@ body{
 	animation-name: disappearright;
 	animation-delay: 5.9s;
 }
-
+.disappear span:nth-child(24)
+{
+	animation-name: disappearright;
+	animation-delay: 5.5s;
+}
 @keyframes disappearleft{
 	50%{
 		transform: skew(50deg) translateY(-200%);
